@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net"
 
-	"github.com/ericnorris/google-kms-x509/internal/cli"
+	"github.com/piyapan039285/google-kms-x509/internal/cli"
 	"github.com/spf13/cobra"
 )
 

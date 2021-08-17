@@ -8,7 +8,7 @@ go_library(
         "sign-intermediate-ca.go",
         "sign-leaf.go",
     ],
-    importpath = "github.com/ericnorris/google-kms-x509/internal/cli",
+    importpath = "github.com/piyapan039285/google-kms-x509/internal/cli",
     visibility = ["//:__subpackages__"],
     deps = [
         "//kmssign:go_default_library",

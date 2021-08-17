@@ -11,7 +11,7 @@ go_library(
         "sign.go",
         "subject-flags.go",
     ],
-    importpath = "github.com/ericnorris/google-kms-x509/cmd/google-kms-x509",
+    importpath = "github.com/piyapan039285/google-kms-x509/cmd/google-kms-x509",
     visibility = ["//visibility:private"],
     x_defs = {
         "Version": "{STABLE_GIT_VERSION}",

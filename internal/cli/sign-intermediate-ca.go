@@ -9,7 +9,7 @@ import (
 	"time"
 
 	cloudkms "cloud.google.com/go/kms/apiv1"
-	"github.com/ericnorris/google-kms-x509/kmssign"
+	"github.com/piyapan039285/google-kms-x509/kmssign"
 )
 
 func SignIntermediateCA(

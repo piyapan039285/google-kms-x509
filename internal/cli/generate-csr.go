@@ -8,7 +8,7 @@ import (
 	"os"
 
 	cloudkms "cloud.google.com/go/kms/apiv1"
-	"github.com/ericnorris/google-kms-x509/kmssign"
+	"github.com/piyapan039285/google-kms-x509/kmssign"
 )
 
 func GenerateCSR(kmsKey string, generateComment bool, subject pkix.Name, out *os.File) {

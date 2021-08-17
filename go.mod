@@ -1,4 +1,4 @@
-module github.com/ericnorris/google-kms-x509
+module github.com/piyapan039285/google-kms-x509
 
 go 1.13
 

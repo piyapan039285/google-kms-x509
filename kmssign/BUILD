@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["google.go"],
-    importpath = "github.com/ericnorris/google-kms-x509/kmssign",
+    importpath = "github.com/piyapan039285/google-kms-x509/kmssign",
     visibility = ["//visibility:public"],
     deps = [
         "@com_google_cloud_go//kms/apiv1:go_default_library",
